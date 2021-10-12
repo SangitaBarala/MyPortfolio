@@ -1,0 +1,28 @@
+.education{
+  background-color: white;
+  margin-top: 20px;
+  text-align: center;
+}
+.education h1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 38px;
+  @media (max-width: 700px){
+    font-size: 20px;
+  }
+}
+.trios{
+  //background-color: #c3ece1;
+  color: red;
+  padding: 50px;
+}
+.kuk{
+  //background-color: gray;
+  color: Purple;
+  padding: 50px;
+}
+.kuk2{
+  //background-color: #b3a0ea;
+  color: #95bd06;
+  padding: 50px;
+}

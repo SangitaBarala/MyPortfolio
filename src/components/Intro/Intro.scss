@@ -1,7 +1,6 @@
 .intro{
-  background-color: white;
+  background-color: #f1f150;
   display: flex;
-  background-image: url("https://lh3.googleusercontent.com/proxy/yBrvPTPRfrLbCsp4zelLHiMrguKtu2LLLUeLBCMDEek2SOXIADqXtB15pWQJD_1Iq6ExzpYFJJxBDl1ymUdpT18oZfuQePUd0FVuE4lvVmRxpaJSEJ1XT7GZ33mfxwC0QKUX_XsDJS2jvnZ3hqM_U52oGR25fGjDxO8ucC7k");
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -13,7 +12,6 @@
       display: flex;
       align-items: center;
       justify-content: center;
-
       img{
         height: 90%;
       }
@@ -29,21 +27,72 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-
       h1{
         font-size: 60px;
+        font-family: Means Web,Georgia,Times,Times New Roman,serif;
         margin: 10px 0;
         color: #031142;
+        @media (max-width: 700px) {
+         font-size: 40px;
+        }
       }
       h2{
         font-size: 35px;
+        color: #8530db;
       }
       h3{
         font-size: 30px;
-
+        color:#8530db;
         span{
           color: red;
         }
+      }
+      h4{
+        color:black;
+        font-size: 20px;
+        @media (max-width: 700px) {
+          margin: 10px;
+          text-align: justify;
+          text-justify: inter-word;
+          font-size: 18px;
+        }
+      }
+      .fa-linkedin{
+        background: black;
+        color: white;
+        font-size: 30px;
+        margin-top: 18px;
+        margin-right: 8px;
+        padding: 10px;
+        border-radius: 8px;
+      }
+      .fa-github{
+        background-color: black;
+        color: white;
+        margin-top: 18px;
+        margin-right: 8px;
+        font-size: 30px;
+        padding: 10px;
+        border-radius: 8px;
+      }
+      .fa-folder{
+        background-color: black;
+        color: white;
+        margin-top: 18px;
+        margin-right: 8px;
+        font-size: 30px;
+        padding: 10px;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+      .fa-github:hover{
+        background-color: #05614f;
+      }
+      .fa-linkedin:hover{
+        background-color: #2098d9;
+      }
+      .fa-folder:hover{
+        background-color: #ac92e8;
       }
     }
   }

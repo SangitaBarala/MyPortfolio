@@ -13,7 +13,9 @@
   align-items: center;
   justify-content: center;
   transition: all 1s ease;
-
+@media (max-width: 700px) {
+  width:70%;
+}
   &.active{
     right: 0;
   }

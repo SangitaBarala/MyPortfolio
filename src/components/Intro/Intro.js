@@ -13,20 +13,19 @@ const Intro = () => {
     }, [])
     return(
         <div className="intro" id="intro">
-            <div className="left">
-                <div className="imgContainer">
-                    <img src="assets/pic2.jpg" alt="picture"/>
-                </div>
-            </div>
             <div className="right">
                 <div className="wrapper">
                     <h2>Hii there, I'm</h2>
                     <h1>Sangita Barala</h1>
-                    <br/>
                     <h3><span ref={textRef} ></span> Developer</h3>
-                    <a href="#portfolio">
-                        portfolio
-                    </a>
+                    <br/>
+                    <h4>I love coding , and I aspire to become a great developer.
+                        I currently code every day to become better than previous day!</h4>
+                    <div>
+                        <a href="https://github.com" className="fa fa-github"></a>
+                        <a href="https://www.linkedin.com/in/sangita-barala-854854205/" className="fa fa-linkedin"></a>
+                        <a className="fa fa-folder"></a>
+                    </div>
                 </div>
             </div>
         </div>
