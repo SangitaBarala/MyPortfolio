@@ -26,7 +26,7 @@ const Intro = () => {
                     <div>
                         <a href="https://github.com/SangitaBarala" className="fa fa-github" target="_blank"></a>
                         <a href="https://www.linkedin.com/in/sangita-barala-854854205/" target="_blank" className="fa fa-linkedin"></a>
-                        <a href={Resume} target="_blank" className="fa fa-folder">
+                        <a href="https://drive.google.com/file/d/1NHtFLXfps5T7FJKnIwE4GalOmVEY5CXH/view?usp=sharing" target="_blank" className="fa fa-folder">
                             <span className="resume_text">Download Resume</span>
                         </a>
                     </div>
