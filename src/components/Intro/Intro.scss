@@ -85,6 +85,24 @@
         border-radius: 8px;
         cursor: pointer;
       }
+      .fa-folder .resume_text{
+        visibility: hidden;
+        width: 120px;
+        font-size: 12px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+      }
+
+      .fa-folder:hover .resume_text{
+        visibility: visible;
+      }
       .fa-github:hover{
         background-color: #05614f;
       }
